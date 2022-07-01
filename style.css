@@ -38,7 +38,7 @@ body {
 }
 
 .app {
-  width: fit-content;
+  max-width: fit-content;
   height: fit-content;
   margin: 0 auto;
   border-radius: 1rem;
