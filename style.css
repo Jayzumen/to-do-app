@@ -4,7 +4,7 @@
   --private: var(--primary);
   --light: #eee;
   --purple: #8b5cf6;
-  --grey: #ddd;
+  --grey: #ccc;
   --dark: #313154;
   --darker: #1f2937;
   --darkest: #111827;
@@ -33,7 +33,7 @@ button {
 }
 
 body {
-  background: var(--dark);
+  background: var(--light);
   color: var(--dark);
 }
 
@@ -42,7 +42,27 @@ body {
   height: fit-content;
   margin: 0 auto;
   border-radius: 1rem;
-  background-color: var(--purple);
+  /* background-color: var(--dark); */
+  background: rgb(30, 144, 255);
+  background: -moz-linear-gradient(
+    347deg,
+    rgba(30, 144, 255, 0.8155637254901961) 0%,
+    rgba(30, 91, 255, 0.8995973389355743) 45%,
+    rgba(30, 34, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    347deg,
+    rgba(30, 144, 255, 0.8155637254901961) 0%,
+    rgba(30, 91, 255, 0.8995973389355743) 45%,
+    rgba(30, 34, 255, 1) 100%
+  );
+  background: linear-gradient(
+    347deg,
+    rgba(30, 144, 255, 0.8155637254901961) 0%,
+    rgba(30, 91, 255, 0.8995973389355743) 45%,
+    rgba(30, 34, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e90ff",endColorstr="#1e22ff",GradientType=1);
 }
 
 /* Main Containers */
@@ -61,7 +81,7 @@ body {
 /* Headings */
 h1 {
   font-size: 4rem;
-  color: var(--darkest);
+  color: var(--light);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
