@@ -86,13 +86,14 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
-h3 {
+p {
   color: var(--grey);
   font-weight: 700;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
 
-h2 {
+h3 {
   color: var(--grey);
   font-weight: 700;
   margin-bottom: 0.5rem;
